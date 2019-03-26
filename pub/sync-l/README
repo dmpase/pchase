@@ -1,0 +1,7 @@
+The goal here is to create a benchmark that measures the cost of testing a conteded lock. 
+
+(1) A single, shared lock space is used across all threads. All locks in the space are locked before the test begins and each thread attempts to accquire a random lock in the space in a tight loop. A new lock is selected at random with each iteration.
+
+(2) Same as (1), except that each thread has their own lock space that is set. 
+
+(3) Same as (1), except that all locks are initialized to "locked", and threads acquire/release locks.

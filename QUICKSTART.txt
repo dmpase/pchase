@@ -1,0 +1,10 @@
+To run the benchmarks with a standard selection of options, execute
+
+    % ./suite.sh
+
+To build the benchmarks using the gcc and icc (Intel) compilers, execute
+
+    % ./build.sh
+
+For a full and complete description of the benchmarks and their options,
+see "Micro-Benchmark_Suite_Users_Guide.pdf".
